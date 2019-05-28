@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'IMMapSingaporeAirlines'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'Indoor map framework'
     s.homepage         = 'https://github.com/vit1812/IMMapSingaporeAirlines'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
     s.dependency 'Toast'
     s.dependency 'SwiftyJSON', '4.2'
     s.dependency 'Kingfisher'
-    s.dependency 'RxCocoa'
-    s.dependency 'RxSwift'
+    s.dependency 'RxCocoa', '4.4.2'
+    s.dependency 'RxSwift', '4.4.2'
     s.dependency 'RxAtomic'
     s.dependency 'EasyTipView'
     s.dependency 'DACircularProgress'
