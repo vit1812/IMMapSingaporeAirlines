@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'IMMapSingaporeAirlines'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = 'Indoor map framework'
     s.homepage         = 'https://github.com/vit1812/IMMapSingaporeAirlines'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
